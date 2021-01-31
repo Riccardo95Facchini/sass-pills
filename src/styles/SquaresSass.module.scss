@@ -1,0 +1,28 @@
+@import './variables.scss';
+
+.squaresContainer {
+    @include flexCenter();
+    height: 100%;
+
+    .outer {
+        width: (5*(10px+10px*9));
+        height: 500px;
+        background-color: $outerColor;
+        @include flexCenter(column);
+
+        .inner1 {
+            @extend %innerBase;
+            background-color: $oddColor;
+        }
+
+        .inner2 {
+            @extend %innerBase;
+            background-color: $evenColor;
+        }
+
+        .inner3 {
+            @extend %innerBase;
+            background-color: $oddColor;
+        }
+    }
+}

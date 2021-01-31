@@ -1,0 +1,33 @@
+.squaresContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.squaresContainer .outer {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.squaresContainer .outer .inner1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.squaresContainer .outer .inner2 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.squaresContainer .outer .inner3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}

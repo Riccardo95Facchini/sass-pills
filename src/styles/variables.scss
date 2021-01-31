@@ -1,0 +1,15 @@
+$outerColor: #4884f3;
+$oddColor: yellow;
+$evenColor: purple;
+
+@mixin flexCenter($direction: row) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: $direction
+}
+
+%innerBase {
+    width: 100px;
+    height: 100px;
+}
